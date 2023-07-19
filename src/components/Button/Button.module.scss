@@ -7,6 +7,8 @@
     cursor: pointer;
     border: 2px solid transparent;
     user-select: none;
+    background-color: #fff;
+    font-family: 'TikTokFont-Semibold';
 
     +.wrapper {
         margin-left: 8px
@@ -19,7 +21,6 @@
 }
 
 .rounded {
-    background-color: #fff;
     border-radius: 999px;
     box-shadow: 0 2px 8px rgb(0 0 0 / 6%);
     border-color: rgba(22, 24, 35, 0.12);
@@ -42,7 +43,6 @@
 
 .outline {
     color: var(--primary);
-    background-color: #fff;
     border-color: var(--primary);
 
     &:hover {
@@ -63,7 +63,6 @@
 }
 
 .text {
-    background-color: #fff;
 
     &:hover {
         text-decoration: underline;
@@ -72,4 +71,8 @@
 
 .icon +.title, .title +.icon{
     margin-left: 8px;
+}
+.icon{
+    display: inline-block;
+    width: 24px;
 }

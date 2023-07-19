@@ -7,9 +7,9 @@
 }
 
 .container{
+    padding: 0 var(--default-layout-horizontal-spacer);
     width: var(--default-width);
     min-height: 700px;
-    background-color: #333;
     display: flex;
 }
 

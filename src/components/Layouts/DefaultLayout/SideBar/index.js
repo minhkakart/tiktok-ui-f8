@@ -8,7 +8,11 @@ const cx = classNames.bind(styles)
 function SideBar() {
     return ( 
         <aside className={cx('wrapper')}>
-            <h2>Sidebar</h2>
+            <p>Vành khuyên nhỏ, lừa dối, quẻ bói TOP 1 đều xứng đáng...</p>
+            <p>dangminh3101</p>
+            <p>#nhachayminmin</p>
+            <p>LIVE</p>
+            
         </aside>
         );
 }
