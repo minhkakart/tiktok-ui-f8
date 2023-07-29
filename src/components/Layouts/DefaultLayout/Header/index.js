@@ -23,6 +23,8 @@ import { faBitcoin } from '@fortawesome/free-brands-svg-icons';
 import { MessageIcon, UploadIcon } from '~/components/Icons';
 import Image from '~/components/Image';
 import Search from '~/components/Layouts/components/Search';
+import { Link } from 'react-router-dom';
+import routesConfig from '~/config/routes';
 
 const cx = classNames.bind(styles);
 const MENU_ITEMS = [
@@ -54,7 +56,7 @@ const MENU_ITEMS = [
     },
 ];
 
-const currentUser = true;
+const currentUser = false;
 
 const userMenu = [
     {
@@ -95,9 +97,9 @@ function Header() {
     return (
         <header className={cx('wrapper')}>
             <div className={cx('inner')}>
-                <div className={cx('logo')}>
-                    <img src={images.logo} alt="Tiktok" />
-                </div>
+                    <Link to={routesConfig.home} className={cx('logo-link')}>
+                        <img src={images.logo} alt="Tiktok" />
+                    </Link>
                 {/* <HeadlessTippy
                     // visible={searchResult.length > 0}
                     interactive
@@ -123,7 +125,7 @@ function Header() {
                     </div>
                 </HeadlessTippy> */}
 
-                <Search/>
+                <Search />
 
                 <div className={cx('action')}>
                     {currentUser ? (

@@ -1,3 +1,8 @@
+
+.tippy-wrap{
+    display: contents;
+}
+
 .search-result,
 .search {
     width: 361px;
@@ -17,6 +22,7 @@
         flex: 1;
         height: 100%;
         color: #000;
+        padding-right: 32px;
         font-size: 1.6rem;
         border: none;
         background-color: transparent;

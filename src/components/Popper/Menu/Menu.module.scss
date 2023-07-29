@@ -2,6 +2,9 @@
 .content{
     width: 250px;
 }
+.menu-scroll{
+    overflow-y: overlay;
+}
 
 
 //Menu item
@@ -38,6 +41,7 @@
 .header{
     position: relative;
     height: 50px;
+    flex-shrink: 0;
 }
 .separator{
     border-top: 1px solid rgba(22, 24, 35, 0.12);

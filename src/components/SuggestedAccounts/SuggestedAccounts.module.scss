@@ -1,0 +1,66 @@
+.wrapper{
+    border-top: 1px solid rgba(22, 24, 35, .12);
+}
+
+// acc item
+
+.acc-item{
+    display: flex;
+    align-items: center;
+    padding: 9px 16px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+
+.avatar{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.avatar-large{
+    width: 46px;
+    height: 46px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.info{
+    flex: 1;
+    margin-left: 12px;
+    font-size: 1.6rem;
+}
+
+.username{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgba(22, 24, 35, 0.5);
+}
+.check-icon{
+    font-size: 12px;
+    margin-left: 4px;
+    color: rgb(32, 213, 236);
+}
+
+
+.btn-see-all{
+    color: var(--primary);
+}
+
+
+.preview{
+    padding: 20px;
+    width: 320px;
+}
+.pre-head{
+    display: flex;
+    justify-content: space-between;
+}
+.padd{
+    display: flex;
+    align-items: center;
+}
